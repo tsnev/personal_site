@@ -16,7 +16,7 @@ html {
 }
 
 p {
-    color: rgb(85, 85, 85);
+    color: black;
 }
 
 /*TRANSITION*/
@@ -46,7 +46,7 @@ nav {
 }
 
 a {
-    color: black;
+    color: white;
     text-decoration: none;
     text-decoration-color: white;
 }
@@ -89,7 +89,7 @@ a:hover {
 .hamburger-icon span {
     width: 100%;
     height: 2px;
-    background-color: black;
+    background-color: white;
     transition: all 0.3 ease-in-out;
 }
 
@@ -109,7 +109,7 @@ a:hover {
     padding: 10px;
     text-align: center;
     font-size: 1.5rem;
-    color: black;
+    color: white;
     text-decoration: none;
     transition: all 0.3 ease-in-out;
 }
@@ -232,6 +232,7 @@ section {
 .btn-color-1,
 .btn-color-2 {
     border: rgb(53, 53, 53) 0.1rem solid;
+    color: white;
 }
 
 .btn-color-1:hover,
@@ -247,6 +248,7 @@ section {
 
 .btn-color-1:hover {
     background: rgb(0, 0, 0);
+    color: white;
 }
 
 .btn-color-2 {
@@ -276,6 +278,7 @@ section {
 .about-details-container {
     justify-content: center;
     flex-direction: column;
+    color: black;
 }
 
 .about-containers,
@@ -296,11 +299,12 @@ section {
 .details-container {
     padding: 1.5rem;
     flex: 1;
-    background: white;
+    background: #b4b4b4;
     border-radius: 2rem;
     border: rgb(53, 53, 53) 0.1rem solid;
     border-color: rgb(163, 163, 163);
     text-align: center;
+    color: black;
 }
 
 .section-container {
@@ -325,12 +329,14 @@ section {
     font-weight: 600;
     font-size: 1.75rem;
     margin-bottom: 2rem;
+    color: black;
 }
 
 .experience-details-container {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    color: black;
 }
 
 .article-container {
@@ -340,6 +346,7 @@ section {
     flex-direction: row;
     gap: 2.5rem;
     justify-content: space-around;
+    color: black;
 }
 
 article {
@@ -347,6 +354,7 @@ article {
     width: 10rem;
     justify-content: space-around;
     gap: 0.5rem;
+    color: black;
 }
 
 article .icon {
@@ -361,7 +369,7 @@ article .icon {
 
 .color-container {
     border-color: rgb(163, 163, 163);
-    background: rgb(250, 250, 250);
+    background: #b4b4b4;
 }
 
 .project-img {
